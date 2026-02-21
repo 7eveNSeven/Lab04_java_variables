@@ -7,7 +7,6 @@ public class Task3Monthlyccbalance {
         final double ANNUAL_RATE   = 0.17;
         final double MONTHLY_RATE  = ANNUAL_RATE / 12;
 
-        // Month 1
         monthlyInterest = balance * MONTHLY_RATE;
         newBalance      = balance + monthlyInterest;
 
@@ -18,7 +17,7 @@ public class Task3Monthlyccbalance {
         System.out.printf( "Interest due month 1:      $%.2f%n", monthlyInterest);
         System.out.printf( "Balance after month 1:     $%.2f%n", newBalance);
 
-        // Month 2 (compounded - interest applies to new balance)
+
         balance         = newBalance;
         monthlyInterest = balance * MONTHLY_RATE;
         newBalance      = balance + monthlyInterest;
