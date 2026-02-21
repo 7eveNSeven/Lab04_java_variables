@@ -2,7 +2,7 @@ public class Task1SaleTax {
     public static void main(String[] args) {
 
 
-        double purchasePrice = 48.99;  // simulating user input
+        double purchasePrice = 48.99;
         double salesTax;
         double totalWithTax;
 
